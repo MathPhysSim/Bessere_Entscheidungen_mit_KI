@@ -1,5 +1,5 @@
 # Data-Driven Decision Making for Sustainable Abalone Harvesting at OceanHarvest Inc.
-
+Simon Hirlaender -  A course for companies
 ## Project Overview
 
 This project explores how to make better decisions using data science and artificial intelligence (AI) in the context of sustainable ocean harvesting, focusing on **OceanHarvest Inc.**, a company specializing in abalone diving. The core challenge is to help OceanHarvest maximize its profits while strictly adhering to environmental regulations that protect abalone populations.
@@ -53,7 +53,7 @@ This project is presented in two main notebooks:
     * **Visualization**: The optimal policy is visualized with a Gantt chart.
     *   **Goal:** This notebook shows how to combine forecasting and dynamic programming to make better decisions about inventory and harvesting. It also shows how to take into account the diver's actions.
 
-## Setup and Dependencies
+###  Short set up for advanced users
 
 To run the notebooks in this project, you'll need to install the following Python libraries:
 
@@ -110,3 +110,84 @@ This project is a good start, but there are many ways to make it even better:
 ## Contact
 
 Simon Hirlaender (simon.hirlaender(at).plus.ac.at)
+
+
+## Installation and Setup
+
+This project requires Python 3.11 and several Python libraries. You can set up your environment using either **Anaconda** (recommended) or a **direct Python installation**.
+
+### Option 1: Using Anaconda (Recommended)
+
+Anaconda is a popular distribution of Python that makes it easy to manage different environments and packages.
+
+1.  **Install Anaconda:**
+    *   If you don't already have Anaconda, download and install it from the [official Anaconda website](https://www.anaconda.com/products/distribution). Choose the version that matches your operating system (Windows, macOS, or Linux).
+2.  **Create a New Environment:**
+    *   Open your terminal or command prompt.
+    *   Create a new Anaconda environment named `bessere_entscheidungen_mit_ki` with Python 3.11.5:
+        ```bash
+        conda create --name bessere_entscheidungen_mit_ki python=3.11.5
+        ```
+    *   Activate the new environment:
+        ```bash
+        conda activate bessere_entscheidungen_mit_ki
+        ```
+3.  **Install Packages:**
+    *   Navigate to the project directory in your terminal.
+    *   Use `pip` to install the required packages from the `requirements.txt` file:
+        ```bash
+        pip install -r requirements.txt
+        ```
+    * This command will install all packages, and the correct version, that are listed in the `requirements.txt` file.
+
+### Option 2: Direct Python Installation
+
+If you prefer to use a direct Python installation (without Anaconda), follow these steps:
+
+1.  **Install Python 3.11.5:**
+    *   If you don't have Python 3.11.5, download it from the [official Python website](https://www.python.org/downloads/).
+    *   Make sure to select the correct installer for your operating system.
+    * Make sure it is 3.11.5.
+2.  **Create a Virtual Environment (Recommended):**
+    *   Creating a virtual environment is highly recommended to isolate the project's dependencies.
+    *   Open your terminal or command prompt.
+    *   Navigate to the project directory.
+    *   Create a virtual environment (e.g., named `bessere_entscheidungen_mit_ki`):
+        *   On Windows:
+            ```bash
+            python -m venv bessere_entscheidungen_mit_ki
+            ```
+        *   On macOS/Linux:
+            ```bash
+            python3 -m venv bessere_entscheidungen_mit_ki
+            ```
+    *   Activate the virtual environment:
+        *   On Windows:
+            ```bash
+            bessere_entscheidungen_mit_ki\Scripts\activate
+            ```
+        *   On macOS/Linux:
+            ```bash
+            source bessere_entscheidungen_mit_ki/bin/activate
+            ```
+3.  **Install Packages:**
+    *   Once the virtual environment is active, use `pip` to install the required packages:
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+### Common Steps After Setting Up the Environment
+
+1.  **Navigate to the project directory:**
+    ```bash
+    cd /path/to/your/project
+    ```
+2.  **Open the Notebooks:**
+    *   If you installed the `jupyter` package (it is in the `requirements.txt`), you can run:
+        ```bash
+        jupyter notebook
+        ```
+    *   This will open Jupyter Notebook in your web browser.
+3. **Open and run the notebooks.**
+
+After completing these steps, you will have a working environment ready to run the code in this project.
