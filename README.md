@@ -124,9 +124,9 @@ Anaconda is a popular distribution of Python that makes it easy to manage differ
     *   If you don't already have Anaconda, download and install it from the [official Anaconda website](https://www.anaconda.com/products/distribution). Choose the version that matches your operating system (Windows, macOS, or Linux).
 2.  **Create a New Environment:**
     *   Open your terminal or command prompt.
-    *   Create a new Anaconda environment named `bessere_entscheidungen_mit_ki` with Python 3.11.5:
+    *   Create a new Anaconda environment named `bessere_entscheidungen_mit_ki` with Python 3.12.9:
         ```bash
-        conda create --name bessere_entscheidungen_mit_ki python=3.11.5
+        conda create --name bessere_entscheidungen_mit_ki python=3.12.9
         ```
     *   Activate the new environment:
         ```bash
@@ -144,10 +144,10 @@ Anaconda is a popular distribution of Python that makes it easy to manage differ
 
 If you prefer to use a direct Python installation (without Anaconda), follow these steps:
 
-1.  **Install Python 3.11.5:**
-    *   If you don't have Python 3.11.5, download it from the [official Python website](https://www.python.org/downloads/).
+1.  **Install Python 3.12.9:**
+    *   If you don't have Python 3.12.9, download it from the [official Python website](https://www.python.org/downloads/).
     *   Make sure to select the correct installer for your operating system.
-    * Make sure it is 3.11.5.
+    * Make sure it is 3.12.9.
 2.  **Create a Virtual Environment (Recommended):**
     *   Creating a virtual environment is highly recommended to isolate the project's dependencies.
     *   Open your terminal or command prompt.
